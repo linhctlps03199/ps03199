@@ -1,0 +1,140 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Asignment_PS03199_INF205
+</name>
+</assembly>
+<members>
+<member name="P:Asignment_PS03199_INF205.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources._12552982_779412212202335_744869305474581667_n">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.Add_Male_User_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.ASUS_ZENFONE_6_VANG">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.BB_PASSPORT_Ð">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.bill_of_document">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.Capture">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.chart_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.cl">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.download">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.download__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.Facebook">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.Gmail">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.hero_htc_one_a9_400x534">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.images">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.iphone_6_plus_128gb">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.lg_g4_leather2_new_400x436">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.login_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.nhan_su">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.remove">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.shop_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.slide_10___Copy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.slide_10___Copy__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.slide_10___Copy__3_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.slide_10___Copy__4_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.smartaccessories">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.Twitter">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.welcome">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Asignment_PS03199_INF205.My.Resources.Resources.Youtube">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Asignment_PS03199_INF205.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

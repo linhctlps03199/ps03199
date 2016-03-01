@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BFC17771-78E8-47FE-A562-81CF01A48ADA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Asignment_PS03199_INF205.My.MyApplication</StartupObject>
+    <RootNamespace>Asignment_PS03199_INF205</RootNamespace>
+    <AssemblyName>Asignment_PS03199_INF205</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Asignment_PS03199_INF205.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Asignment_PS03199_INF205.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Tpdkdesign.net-Refresh-Cl-Windows-Visual-Style.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DangNhap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.vb">
+      <DependentUpon>DangNhap.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBaoCao.Designer.vb">
+      <DependentUpon>frmBaoCao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBaoCao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGioiThieu.Designer.vb">
+      <DependentUpon>frmGioiThieu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGioiThieu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLHoaDon.Designer.vb">
+      <DependentUpon>frmQLHoaDon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLHoaDon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLKhachHang.Designer.vb">
+      <DependentUpon>frmQLKhachHang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLKhachHang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLy.Designer.vb">
+      <DependentUpon>frmQuanLy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLySP.Designer.vb">
+      <DependentUpon>frmQuanLySP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanLySP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBaoCao.resx">
+      <DependentUpon>frmBaoCao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGioiThieu.resx">
+      <DependentUpon>frmGioiThieu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLHoaDon.resx">
+      <DependentUpon>frmQLHoaDon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLKhachHang.resx">
+      <DependentUpon>frmQLKhachHang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLy.resx">
+      <DependentUpon>frmQuanLy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLySP.resx">
+      <DependentUpon>frmQuanLySP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cl.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nhan-su.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bill_of_document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shop-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add-Male-User-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slide-10 - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slide-10 - Copy %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slide-10 - Copy %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slide-10 - Copy %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone-6-plus-128gb.png" />
+    <None Include="Resources\lg-g4-leather2-new-400x436.png" />
+    <None Include="Resources\hero-htc-one-a9-400x534.png" />
+    <None Include="Resources\smartaccessories.jpg" />
+    <None Include="Resources\BB-PASSPORT-Ð.jpg" />
+    <None Include="Resources\ASUS-ZENFONE-6-VANG.jpg" />
+    <None Include="Resources\welcome.png" />
+    <None Include="Resources\12552982_779412212202335_744869305474581667_n.jpg" />
+    <None Include="Resources\Facebook.png" />
+    <None Include="Resources\Gmail.png" />
+    <None Include="Resources\Twitter.png" />
+    <None Include="Resources\Youtube.png" />
+    <Content Include="Tpdkdesign.net-Refresh-Cl-Windows-Visual-Style.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
